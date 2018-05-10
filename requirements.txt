@@ -24,4 +24,3 @@ six==1.10.0
 staffjoy==0.24
 wrapt==1.10.8
 yapf==0.16.0
-setuptools

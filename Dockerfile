@@ -16,6 +16,7 @@ RUN apt-get install --yes --force-yes nginx supervisor memcached
 
 # Add and install Python modules
 ADD requirements.txt /src/requirements.txt
+RUN pip install --upgrade setuptools
 RUN cd /src; pip install -r requirements.txt
 
 # Bundle app source
